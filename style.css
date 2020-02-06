@@ -223,7 +223,7 @@ h1 {
     .course {
         flex: 1 1 30%;
         min-width: 500px;
-        height: 100vh;
+        height: 890px;
         padding-top: 15vh;
         background-size: initial;
         background-image: none;
@@ -241,8 +241,13 @@ h1 {
     }
 
     .course__name {
-        font-size: 0.25rem;
+        font-size: 36px;
+        font-weight:700;
+        font-family: var(--font-special);
+
         margin: 2rem 0 0.5rem 0;
+
+
       
     }
     .course__address {
