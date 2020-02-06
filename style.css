@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab:400,700&display=swap');
+
 
 :root {
     --yellow: #ECD06B;
@@ -8,10 +10,21 @@
     --gray: #DEDEDE;
     --white: #ffffff;
 
-    --font-family: 'Roboto', sans-serif;
-    --font: Roboto ;
     --font-main: serif;
-    --font-special: Roboto;
+    --font-special: Roboto Slab;
+
+    --font-main:'Roboto', sans-serif;
+    --font-special:'Roboto Slab', serif;
+    --font-family: 'Roboto', sans-serif;
+    --font-family: 'Roboto Slab', serif;
+
+
+
+
+
+    --font-main: serif;
+    --font-special: cursive;
+    
 
     --shadow: 0 0.25rem 0 0 hsla(0, 0%, 0%, 0.25);
 }
@@ -30,7 +43,7 @@ body, html {
     background: var(--blue);
 }
 
-h1, h2, h3, h4, h5 {
+h1 {
     font-family: var(--font-special);
 }
 
@@ -47,7 +60,7 @@ h1, h2, h3, h4, h5 {
     align-items: center;
     flex: 1 1 50%;
     position: relative;
-    background: url(./img/taustaillustratsioon.svg) repeat-x 65% center;
+    background: url(./img/taustaillustratsioon.svg) repeat-x 65%;
     background-color: var(--blue);
 }
 
@@ -64,7 +77,7 @@ h1, h2, h3, h4, h5 {
 }
 .lang__btn {
     font-family: var(--font-special);
-    color: var(--pink);
+    color: var(--blue-dark);
     text-decoration: none;
 }
 
@@ -150,8 +163,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .btn-primary {
-    font: Roboto;
-    font-size: 24px;
+    font-size: 20px;
     padding: 0.75rem 1.5rem;
     margin: 1rem 0 1.5rem 0;
     font-family: var(--font-special);
@@ -169,7 +181,7 @@ h1, h2, h3, h4, h5 {
     color: var(--white);
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 0.875rem;
+    font-size: 14;
 }
 .btn-secondary::after {
     display: inline-block;
@@ -195,7 +207,7 @@ h1, h2, h3, h4, h5 {
     .intro {
         flex: 1 1 70%;
         height: 100vh;
-        background-size: 20%;
+        background-size: 100%;
         background-repeat: repeat;
         background-color: var(--blue);
     }
